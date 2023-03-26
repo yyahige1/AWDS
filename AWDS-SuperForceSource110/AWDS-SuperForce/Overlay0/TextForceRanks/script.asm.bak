@@ -1,0 +1,483 @@
+;scriptname.asm
+;Force Rank Script Name Data
+.org 0x02308B08
+ScriptForceName000:
+ScriptForceName001:
+ScriptForceName002:
+ScriptForceName003:
+ScriptForceName004:
+ScriptForceName005:
+ScriptForceName006:
+ScriptForceName007:
+ScriptForceName008:
+ScriptForceName009:
+ScriptForceName010:
+ScriptForceName011:
+ScriptForceName012:
+ScriptForceName013:
+ScriptForceName014:
+ScriptForceName015:
+ScriptForceName016:
+	.ascii	"Blank",0x0
+ScriptForceName017:
+	.ascii	"Bruiser",0x0
+ScriptForceName018:
+	.ascii	"Sharpshooter",0x0
+ScriptForceName019:
+	.ascii	"Luck",0x0
+ScriptForceName020:
+	.ascii	"Slam Guard",0x0
+ScriptForceName021:
+	.ascii	"Snipe Guard",0x0
+ScriptForceName022:
+	.ascii	"Combat Pay",0x0
+ScriptForceName023:
+	.ascii	"Sneaky",0x0
+ScriptForceName024:
+	.ascii	"Tower Power",0x0
+ScriptForceName025:
+	.ascii	"APC Guard",0x0
+ScriptForceName026:
+	.ascii	"Teamwork",0x0
+ScriptForceName027:
+	.ascii	"Sale Price",0x0
+ScriptForceName028:
+	.ascii	"Mechanic",0x0
+ScriptForceName029:
+	.ascii	"Scout",0x0
+ScriptForceName030:
+	.ascii	"Invader",0x0
+ScriptForceName031:
+	.ascii	"Seamanship",0x0
+ScriptForceName032:
+	.ascii	"Road Rage",0x0
+ScriptForceName033:
+	.ascii	"Urban Fighter",0x0
+ScriptForceName034:
+	.ascii	"Mountaineer",0x0
+ScriptForceName035:
+	.ascii	"Ranger",0x0
+ScriptForceName036:
+	.ascii	"APC Boost",0x0
+ScriptForceName037:
+	.ascii	"Star Power",0x0
+ScriptForceName038:
+	.ascii	"Missile Guard",0x0
+ScriptForceName039:
+	.ascii	"Cannon Guard",0x0
+ScriptForceName040:
+	.ascii	"Stealthy",0x0
+ScriptForceName041:
+	.ascii	"Pathfinder",0x0
+ScriptForceName042:
+	.ascii	"Prairie Dog",0x0
+ScriptForceName043:
+	.ascii	"Bodyguard",0x0
+ScriptForceName044:
+	.ascii	"Gold Rush",0x0
+ScriptForceName045:
+	.ascii	"Icebreaker",0x0
+ScriptForceName046:
+	.ascii	"High and Dry",0x0
+ScriptForceName047:
+	.ascii	"Sand Scorpion",0x0
+ScriptForceName048:
+	.ascii	"Slam Shield",0x0
+ScriptForceName049:
+	.ascii	"Snipe Shield",0x0
+ScriptForceName050:
+	.ascii	"Brawler",0x0
+ScriptForceName051:
+	.ascii	"Sniper",0x0
+ScriptForceName052:
+	.ascii	"Synergy",0x0
+ScriptForceName053:
+	.ascii	"Fire Sale",0x0
+ScriptForceName054:
+	.ascii	"Gear Head",0x0
+ScriptForceName055:
+	.ascii	"Eagle Eye",0x0
+ScriptForceName056:
+	.ascii	"Conqueror",0x0
+ScriptForceName057:
+ScriptForceName058:
+ScriptForceName059:
+ScriptForceName060:
+	.ascii	"Blank",0x0
+ScriptForceName061:
+	.ascii	"Backstab",0x0
+ScriptForceName062:
+	.ascii	"Mistwalker",0x0
+ScriptForceName063:
+	.ascii	"Soul of Hachi",0x0
+ScriptForceName064:
+ScriptForceName065:
+ScriptForceName066:
+ScriptForceName067:
+ScriptForceName068:
+ScriptForceName069:
+ScriptForceName070:
+ScriptForceName071:
+ScriptForceName072:
+ScriptForceName073:
+ScriptForceName074:
+ScriptForceName075:
+ScriptForceName076:
+ScriptForceName077:
+ScriptForceName078:
+ScriptForceName079:
+ScriptForceName080:
+ScriptForceName081:
+ScriptForceName082:
+ScriptForceName083:
+ScriptForceName084:
+ScriptForceName085:
+ScriptForceName086:
+ScriptForceName087:
+ScriptForceName088:
+ScriptForceName089:
+ScriptForceName090:
+ScriptForceName091:
+ScriptForceName092:
+ScriptForceName093:
+ScriptForceName094:
+ScriptForceName095:
+ScriptForceName096:
+ScriptForceName097:
+ScriptForceName098:
+ScriptForceName099:
+ScriptForceName100:
+ScriptForceName101:
+ScriptForceName102:
+ScriptForceName103:
+ScriptForceName104:
+ScriptForceName105:
+ScriptForceName106:
+ScriptForceName107:
+ScriptForceName108:
+ScriptForceName109:
+ScriptForceName110:
+ScriptForceName111:
+ScriptForceName112:
+ScriptForceName113:
+ScriptForceName114:
+ScriptForceName115:
+ScriptForceName116:
+ScriptForceName117:
+ScriptForceName118:
+ScriptForceName119:
+ScriptForceName120:
+ScriptForceName121:
+ScriptForceName122:
+ScriptForceName123:
+ScriptForceName124:
+ScriptForceName125:
+ScriptForceName126:
+ScriptForceName127:
+ScriptForceName128:
+ScriptForceName129:
+ScriptForceName130:
+ScriptForceName131:
+ScriptForceName132:
+ScriptForceName133:
+ScriptForceName134:
+ScriptForceName135:
+ScriptForceName136:
+ScriptForceName137:
+ScriptForceName138:
+ScriptForceName139:
+ScriptForceName140:
+ScriptForceName141:
+ScriptForceName142:
+ScriptForceName143:
+ScriptForceName144:
+ScriptForceName145:
+ScriptForceName146:
+ScriptForceName147:
+ScriptForceName148:
+ScriptForceName149:
+ScriptForceName150:
+ScriptForceName151:
+ScriptForceName152:
+ScriptForceName153:
+ScriptForceName154:
+ScriptForceName155:
+ScriptForceName156:
+ScriptForceName157:
+ScriptForceName158:
+ScriptForceName159:
+ScriptForceName160:
+ScriptForceName161:
+ScriptForceName162:
+ScriptForceName163:
+ScriptForceName164:
+ScriptForceName165:
+ScriptForceName166:
+ScriptForceName167:
+ScriptForceName168:
+ScriptForceName169:
+ScriptForceName170:
+ScriptForceName171:
+ScriptForceName172:
+ScriptForceName173:
+ScriptForceName174:
+ScriptForceName175:
+ScriptForceName176:
+ScriptForceName177:
+ScriptForceName178:
+ScriptForceName179:
+ScriptForceName180:
+ScriptForceName181:
+ScriptForceName182:
+ScriptForceName183:
+ScriptForceName184:
+ScriptForceName185:
+ScriptForceName186:
+ScriptForceName187:
+ScriptForceName188:
+ScriptForceName189:
+ScriptForceName190:
+ScriptForceName191:
+	.ascii	"Name",0x0
+
+;Force Rank Description Data
+.org	0x02309424
+ScriptForceDescription000:
+ScriptForceDescription001:
+ScriptForceDescription002:
+ScriptForceDescription003:
+ScriptForceDescription004:
+ScriptForceDescription005:
+ScriptForceDescription006:
+ScriptForceDescription007:
+ScriptForceDescription008:
+ScriptForceDescription009:
+ScriptForceDescription010:
+ScriptForceDescription011:
+ScriptForceDescription012:
+ScriptForceDescription013:
+ScriptForceDescription014:
+ScriptForceDescription015:
+ScriptForceDescription016:
+	.ascii	"Blank",0x0
+ScriptForceDescription017:
+	.ascii	"Direct attack +5%",0x0;"Bruiser",0x0
+ScriptForceDescription018:
+	.ascii	"Indirect attack +5%",0x0;"Sharpshooter",0x0
+ScriptForceDescription019:
+	.ascii	"Random higher damage",0x0;"Luck",0x0
+ScriptForceDescription020:
+	.ascii	"Direct-fire defence +8%",0x0;"Slam Guard",0x0
+ScriptForceDescription021:
+	.ascii	"Indirect-fire defence +8%",0x0;"Snipe Guard",0x0
+ScriptForceDescription022:
+	.ascii	"Damage foes to earn cash",0x0;"Combat Pay",0x0
+ScriptForceDescription023:
+	.ascii	"Dive/hide fuel cost -1",0x0;"Sneaky",0x0
+ScriptForceDescription024:
+	.ascii	"Com Tower effect +5%",0x0;"Tower Power",0x0
+ScriptForceDescription025:
+	.ascii	"Transport defence +10%",0x0;"APC Guard",0x0
+ScriptForceDescription026:
+	.ascii	"Tag CO's attack +5%",0x0;"Teamwork",0x0
+ScriptForceDescription027:
+	.ascii	"Production cost -5%",0x0;"Sale Price",0x0
+ScriptForceDescription028:
+	.ascii	"Base repair +1",0x0;"Mechanic",0x0
+ScriptForceDescription029:
+	.ascii	"Vision +1",0x0;"Scout",0x0
+ScriptForceDescription030:
+	.ascii	"Capture +1",0x0;"Invader",0x0
+ScriptForceDescription031:
+	.ascii	"Sea attack +10%",0x0;"Seamanship",0x0
+ScriptForceDescription032:
+	.ascii	"Road attack +10%",0x0;"Road Rage",0x0
+ScriptForceDescription033:
+	.ascii	"City attack +10%",0x0;"Urban Fighter",0x0
+ScriptForceDescription034:
+	.ascii	"Mountain attack +10%",0x0;"Mountaineer",0x0
+ScriptForceDescription035:
+	.ascii	"Woods attack +10%",0x0;"Ranger",0x0
+ScriptForceDescription036:
+	.ascii	"Transport movement +1",0x0;"APC Boost",0x0
+ScriptForceDescription037:
+	.ascii	"+10% Power meter fill",0x0;"Star Power",0x0
+ScriptForceDescription038:
+	.ascii	"Damage from silos -1",0x0;"Missile Guard",0x0
+ScriptForceDescription039:
+	.ascii	"Damage from cannons -2",0x0;"Cannon Guard",0x0
+ScriptForceDescription040:
+	.ascii	"Dive/hide cost -2",0x0;"Stealthy",0x0
+ScriptForceDescription041:
+	.ascii	"Plain movement = 1",0x0;"Pathfinder",0x0
+ScriptForceDescription042:
+	.ascii	"Woods movement = 1",0x0;"Prairie Dog",0x0
+ScriptForceDescription043:
+	.ascii	"Tag CO's defence +10%",0x0;"Bodyguard",0x0
+ScriptForceDescription044:
+	.ascii	"Funds from bases +100",0x0;"Gold Rush",0x0
+ScriptForceDescription045:
+	.ascii	"Attack in snow +20%",0x0;"Icebreaker",0x0
+ScriptForceDescription046:
+	.ascii	"Attack in rain +20%",0x0;"High and Dry",0x0
+ScriptForceDescription047:
+	.ascii	"Attack in sandstorm +20%",0x0;"Sand Scorpion",0x0
+ScriptForceDescription048:
+	.ascii	"Direct-fire defence +12%",0x0;"Slam Shield",0x0
+ScriptForceDescription049:
+	.ascii	"Indirect-fire defence +12%",0x0;"Snipe Shield",0x0
+ScriptForceDescription050:
+	.ascii	"Direct attack +8%",0x0;"Brawler",0x0
+ScriptForceDescription051:
+	.ascii	"Indirect attack +8%",0x0;"Sniper",0x0
+ScriptForceDescription052:
+	.ascii	"Tag CO's attack +8%",0x0;"Synergy",0x0
+ScriptForceDescription053:
+	.ascii	"Production cost -8%",0x0;"Fire Sale",0x0
+ScriptForceDescription054:
+	.ascii	"Base repair +2",0x0;"Gear Head",0x0
+ScriptForceDescription055:
+	.ascii	"Vision +2",0x0;"Eagle Eye",0x0
+ScriptForceDescription056:
+	.ascii	"Capture +2",0x0;"Conqueror",0x0
+ScriptForceDescription057:
+ScriptForceDescription058:
+ScriptForceDescription059:
+ScriptForceDescription060:
+	.ascii	"Blank",0x0
+ScriptForceDescription061:
+	.ascii	"Dive/hide attack +15%",0x0;"Backstab",0x0
+ScriptForceDescription062:
+	.ascii	"Counter first during SCOP",0x0;"Mistwalker",0x0
+ScriptForceDescription063:
+	.ascii	"Deploy from cities in SCOP",0x0;"Soul of Hachi",0x0
+ScriptForceDescription064:
+ScriptForceDescription065:
+ScriptForceDescription066:
+ScriptForceDescription067:
+ScriptForceDescription068:
+ScriptForceDescription069:
+ScriptForceDescription070:
+ScriptForceDescription071:
+ScriptForceDescription072:
+ScriptForceDescription073:
+ScriptForceDescription074:
+ScriptForceDescription075:
+ScriptForceDescription076:
+ScriptForceDescription077:
+ScriptForceDescription078:
+ScriptForceDescription079:
+ScriptForceDescription080:
+ScriptForceDescription081:
+ScriptForceDescription082:
+ScriptForceDescription083:
+ScriptForceDescription084:
+ScriptForceDescription085:
+ScriptForceDescription086:
+ScriptForceDescription087:
+ScriptForceDescription088:
+ScriptForceDescription089:
+ScriptForceDescription090:
+ScriptForceDescription091:
+ScriptForceDescription092:
+ScriptForceDescription093:
+ScriptForceDescription094:
+ScriptForceDescription095:
+ScriptForceDescription096:
+ScriptForceDescription097:
+ScriptForceDescription098:
+ScriptForceDescription099:
+ScriptForceDescription100:
+ScriptForceDescription101:
+ScriptForceDescription102:
+ScriptForceDescription103:
+ScriptForceDescription104:
+ScriptForceDescription105:
+ScriptForceDescription106:
+ScriptForceDescription107:
+ScriptForceDescription108:
+ScriptForceDescription109:
+ScriptForceDescription110:
+ScriptForceDescription111:
+ScriptForceDescription112:
+ScriptForceDescription113:
+ScriptForceDescription114:
+ScriptForceDescription115:
+ScriptForceDescription116:
+ScriptForceDescription117:
+ScriptForceDescription118:
+ScriptForceDescription119:
+ScriptForceDescription120:
+ScriptForceDescription121:
+ScriptForceDescription122:
+ScriptForceDescription123:
+ScriptForceDescription124:
+ScriptForceDescription125:
+ScriptForceDescription126:
+ScriptForceDescription127:
+ScriptForceDescription128:
+ScriptForceDescription129:
+ScriptForceDescription130:
+ScriptForceDescription131:
+ScriptForceDescription132:
+ScriptForceDescription133:
+ScriptForceDescription134:
+ScriptForceDescription135:
+ScriptForceDescription136:
+ScriptForceDescription137:
+ScriptForceDescription138:
+ScriptForceDescription139:
+ScriptForceDescription140:
+ScriptForceDescription141:
+ScriptForceDescription142:
+ScriptForceDescription143:
+ScriptForceDescription144:
+ScriptForceDescription145:
+ScriptForceDescription146:
+ScriptForceDescription147:
+ScriptForceDescription148:
+ScriptForceDescription149:
+ScriptForceDescription150:
+ScriptForceDescription151:
+ScriptForceDescription152:
+ScriptForceDescription153:
+ScriptForceDescription154:
+ScriptForceDescription155:
+ScriptForceDescription156:
+ScriptForceDescription157:
+ScriptForceDescription158:
+ScriptForceDescription159:
+ScriptForceDescription160:
+ScriptForceDescription161:
+ScriptForceDescription162:
+ScriptForceDescription163:
+ScriptForceDescription164:
+ScriptForceDescription165:
+ScriptForceDescription166:
+ScriptForceDescription167:
+ScriptForceDescription168:
+ScriptForceDescription169:
+ScriptForceDescription170:
+ScriptForceDescription171:
+ScriptForceDescription172:
+ScriptForceDescription173:
+ScriptForceDescription174:
+ScriptForceDescription175:
+ScriptForceDescription176:
+ScriptForceDescription177:
+ScriptForceDescription178:
+ScriptForceDescription179:
+ScriptForceDescription180:
+ScriptForceDescription181:
+ScriptForceDescription182:
+ScriptForceDescription183:
+ScriptForceDescription184:
+ScriptForceDescription185:
+ScriptForceDescription186:
+ScriptForceDescription187:
+ScriptForceDescription188:
+ScriptForceDescription189:
+ScriptForceDescription190:
+ScriptForceDescription191:
+	.ascii	"Description",0x0
+;blank line
